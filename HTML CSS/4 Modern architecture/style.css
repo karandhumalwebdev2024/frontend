@@ -1,0 +1,142 @@
+
+*{
+    font-family: "Gilroy";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    background-image: url(https://jeca-privateoffice.com/wp-content/uploads/2021/01/JECA_Privateoffice_simone-hutsch-1024x600.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: 0% 30%;
+    background-size: cover;
+}
+#nav{
+    padding: 0 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+#nav #nlinks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#nav i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#nlinks{
+    display: flex;
+    gap: 50px;
+}
+#nlinks a{
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#nlinks #active::before{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50% , 0);
+
+}
+#nav h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    color: #fff
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0 ,-50%);
+    width: 40%;
+    color: #fff;
+}
+text h6{
+    display: flex;
+}
+#text h6 span{
+    line-height: 25px;
+    font-size: 30px;
+}
+#text h1{
+    font-size: 90px;
+    line-height: 1;
+    margin-top: 40px;
+}
+#lineandtext{
+    margin-top: 50px;
+    display: flex;
+    gap: 70px;
+}
+#line{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+}
+#lineandtext p{
+    width: 60%;
+    line-height: 20px;
+    margin-top: -5px;
+    font-size: 12px;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    height: 100px;
+    background-color: #fff;
+    left: 0;
+
+}
+#cube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+}
+#bottom .sec p{
+    opacity: .5;
+    font-size: 14px;
+    font-weight: 500;
+}
