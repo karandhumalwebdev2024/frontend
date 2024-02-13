@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-Regular.woff2);
+    src: url(./Voyage.woff2);
+}
 *{
     font-family: "Montserrat";
     margin: 0;
